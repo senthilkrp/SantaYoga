@@ -1,0 +1,46 @@
+.content
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 80%;
+}
+#myCarousel, .carousel-inner, .item
+{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner > .item
+{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 0;
+}
+
+.item3
+{
+    background-image: url("../gallery/1.jpg");
+}
+
+.item2
+{
+    background-image: url("../gallery/2.jpg");
+}
+
+.item1
+{
+    background-image: url("../gallery/3.jpg");
+}
+
+
+.carousel-control.left {
+  background-image: none;      
+}
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image:url();
+}

@@ -1,0 +1,27 @@
+.row{
+    display: table;
+    height:100%;
+    width: 100%;
+}
+
+.vcenter
+{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.content
+{
+    margin-top: 0px;
+}
+
+.contactfield
+{
+    padding-top: : 5px;
+    padding-bottom : 5px;
+}
+
+.contactheader
+{
+    font-weight:500;    
+}

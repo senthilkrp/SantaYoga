@@ -1,0 +1,32 @@
+.content
+{        
+    background: black;
+    background: url("../../assets/background.jpg");
+    background-size:contain;
+    background-repeat:no-repeat;  
+}
+
+.category > div
+{
+    display: table-cell;
+    vertical-align: middle;    
+}
+
+.category
+{
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    height: 100%;
+    display: table;    
+    border-spacing: 50px;    
+}
+
+.categorycontainer
+{
+    border: 1px skyblue solid;
+    width: 200px;
+    height: 200px;    
+    background: skyblue;
+    border-radius: 10px;
+}
